@@ -18,40 +18,38 @@
         city you're in and whether you're taking the Immersive User Experience (UX)
         course or the Immersive Web Development course.
       </p>
-<div>
-City:
-  <select class="city" name="city">
-    <option value="HK">Hong Kong</option>
-    <option value="LO">London</option>
-    <option value="LA">Los Angeles</option>
-    <option value="NY">New York</option>
-    <option value="PL">Portland</option>
-    <option value="SF">San Francisco</option>
-    <option value="SE">Seattle</option>
-    <option value="SG">Singapore</option>
-  </select><br>
-</div>
+<form>
+  <div>
+  City:
+    <select class="city" name="city">
+      <option value="HK">Hong Kong</option>
+      <option value="LO">London</option>
+      <option value="LA">Los Angeles</option>
+      <option value="NY">New York</option>
+      <option value="PL">Portland</option>
+      <option value="SF">San Francisco</option>
+      <option value="SE">Seattle</option>
+      <option value="SG">Singapore</option>
+    </select><br>
+  </div>
 
-<div>
-  <br><form class="" action="index.html" method="post">
+  <div><br>
     Course:
-      <input type ="radio">UX
-      <input type ="radio" checked>Web Dev
-  </form><br>
-</div>
+    <label>
+      <input type ="radio"> UX
+    </label>
+    <label>
+      <input type ="radio" checked> Web Dev
+    </label><br><br>
+  </div>
 
-  <form>
-    Name: <input type="text">
-  </form><br>
-  <form>
-    Email: <input type="email">
-  </form><br>
-  <form>
-    Password: <input type="password">
-  </form><br>
-  <form>
+  <div>
+    Name: <input type="text"><br><br>
+    Email: <input type="email"><br><br>
+    Password: <input type="password"><br><br>
     <input type="checkbox" checked>Yes, subscribe me to the General Assembly student newsletter
-  </form>
+  </div>
+</form>
 
 <button type="button" name="button">Subscribe</button>
 </body>
